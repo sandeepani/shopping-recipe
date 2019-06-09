@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-10">
+    <app-shopping-list-edit></app-shopping-list-edit>
+  </div>
+  <div class="col-xs-2">
+    <p>
+      shopping-list !
+    </p>
+    <ul *ngFor="let item of shoppingItems">
+      <li>
+        {{item}}
+      </li>
+    </ul>
+  </div>
+</div>
